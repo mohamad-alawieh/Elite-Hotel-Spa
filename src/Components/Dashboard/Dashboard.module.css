@@ -1,0 +1,165 @@
+.home {
+    width: 90%;
+    max-width: 40rem;
+    padding: 3rem;
+    margin: 2rem auto;
+    text-align: center;
+  }
+  
+  .loadingScreen{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .loadingScreen h1{
+    margin: 20% auto !important;
+    text-align: center;
+    font-family: var(--font-family);
+  }
+  
+  .cssssss {
+    width: 100% !important;
+    padding: 0 5% !important; 
+    position: relative;
+    background-color: rgba(246, 246, 247, 1);
+    color: #fff;
+    font-weight: 600;
+    font-family: var(--font-family);
+  }
+  
+  .sidebar {
+    position: relative;
+    background-color: var(--primary-color);
+    color: white;
+    height: 100%;
+    padding: 0;
+    overflow: hidden; /* Ensure the gradient doesn't overflow */
+    z-index: 100 !important;
+    font-family: var(--font-family);
+  }
+  .sidebartop{
+    position: relative;
+    height: fit-content;
+    z-index: 100 !important;
+    font-family: var(--font-family);
+    overflow: visible;
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  
+  .sidebartop1{
+    z-index: 100 !important;
+    font-family: var(--font-family);
+  }
+  .logoBg{
+    width: 110%;
+    height: 150%;
+    object-fit: fill;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  .logooo{
+    width: 6em;
+    margin: auto !important;
+    cursor: pointer;
+    mix-blend-mode: darken;
+    padding: .7em 0;
+  }
+  .sidebar a{
+    color: white;
+  }
+  
+  .icons {
+    color: white;
+  }
+  .iconsSelected {
+    color: black;
+  }
+  
+  .arrow{
+    color:black;
+  }
+  
+  .overlay {
+    background-color: var(--secondary-color) ;
+    border-radius: .0em;
+    color: #fff !important;
+    z-index: 100;
+    font-family: var(--font-family) !important;
+    
+  }
+  
+  .overlaySubtitle {
+    background-color: var(--secondary-color) ;
+    border-radius: .0em;
+    color: #fff !important;
+    z-index: 100;
+    font-family: var(--font-family) !important;
+    border-radius: .3em;
+    
+  }
+  
+  .overlay1 {
+    position: relative;
+    width: 10px !important;
+    left: 0%;
+    background-color: transparent ;
+    font-family: var(--font-family) !important;
+  }
+  .test{
+    position: absolute;
+    width: 50vmin;
+    top: 50%;
+    left: 45%; 
+    transform: translate(-50%, -50%);
+    padding: 2em ;
+  }
+
+  .card{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 17.8px 0px rgba(0, 0, 0, 0.25);
+    padding: 1em 0;
+    margin-top: 2em;
+  }
+
+  .card h2{
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .card h3{
+    margin-top: 0;
+    width: 90%;
+    text-align: start;
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .card p{
+    width: 90%;
+    text-align: end;
+    font-family: var(--font-family);
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+
+  .cardRow{
+    width: 90%;
+    margin: auto;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
