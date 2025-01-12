@@ -1,6 +1,5 @@
 import { useContext, useEffect, useState } from "react";
 import classes from "./Dashboard.module.css";
-import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import { styled, useTheme } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import MuiDrawer from "@mui/material/Drawer";

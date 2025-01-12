@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import classes from "./HotelStatus.module.css";
 import ReturnIcon from "../../assets/ReturnIcon.svg";
 import Expand from "../../assets/Expand.svg";
+import Status from "../../assets/Status.svg";
 import RoomIcon from "../../assets/Room.svg";
 
 
