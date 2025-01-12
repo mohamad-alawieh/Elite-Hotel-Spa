@@ -226,7 +226,7 @@ const Dashboard = (props) => {
                 <p>7</p>
             </div>
             <div className={classes.cardRow}>
-                <h3>-BO</h3>
+                <h3>- BO</h3>
                 <p>B</p>
             </div>
             <div className={classes.cardRow}>

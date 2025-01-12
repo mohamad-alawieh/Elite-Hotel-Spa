@@ -2,7 +2,12 @@ import React, { useState } from 'react'
 import classes from "./HotelStatus.module.css";
 import ReturnIcon from "../../assets/ReturnIcon.svg";
 import Expand from "../../assets/Expand.svg";
-// import DEPARTURE from "../../assets/DEPARTURE.svg";
+import DEPARTURE from "../../assets/DEPARTURE.svg";
+import transfer from "../../assets/transfer.svg";
+import Status from "../../assets/Status.svg";
+import Arrival from "../../assets/Arrival.svg";
+import MARKET from "../../assets/MARKET.svg";
+import cancelled from "../../assets/cancelled.svg";
 import RoomIcon from "../../assets/Room.svg";
 
 
@@ -102,7 +107,7 @@ const HotelStatus = () => {
       </div>
       <div className={classes.card} onClick={() => toggleCard('card2')}>
         <div className={classes.cardHead}>
-          <p className={classes.title}><img src={RoomIcon} className={classes.icon} alt="" />Status</p>
+          <p className={classes.title}><img src={Status} className={classes.icon} alt="" />Status</p>
           <p className={classes.number}>3</p>
         </div>
        <div  className={`${classes.table} ${expandedCards.card2 ? `${classes.open}` : ''}`}>
@@ -133,7 +138,7 @@ const HotelStatus = () => {
       <div className={classes.cardsContRow}>
       <div className={classes.card}  onClick={() => toggleCard('card10')}>
         <div className={classes.cardHead}>
-          <p className={classes.title}><img src={RoomIcon} className={classes.icon} alt="" /> ARRIVAL FOR TODAY</p>
+          <p className={classes.title}><img src={Arrival} className={classes.icon} alt="" /> ARRIVAL FOR TODAY</p>
           <p className={classes.number}>3</p>
         </div>
         <div  className={`${classes.table} ${expandedCards.card10 ? `${classes.open}` : ''}`}>
@@ -166,7 +171,7 @@ const HotelStatus = () => {
       </div>
       <div className={classes.card}  onClick={() => toggleCard('card11')}>
         <div className={classes.cardHead}>
-          <p className={classes.title}><img src={RoomIcon} className={classes.icon} alt="" /> DEPARTURE FOR TODAY</p>
+          <p className={classes.title}><img src={DEPARTURE} className={classes.icon} alt="" /> DEPARTURE FOR TODAY</p>
           <p className={classes.number}>1</p>
         </div>
         <div  className={`${classes.table} ${expandedCards.card11 ? `${classes.open}` : ''}`}>
@@ -196,7 +201,7 @@ const HotelStatus = () => {
       </div>
       <div className={classes.card} onClick={() => toggleCard('card3')}>
         <div className={classes.cardHead}>
-          <p className={classes.title}><img src={RoomIcon} className={classes.icon} alt="" />transfer ROOM</p>
+          <p className={classes.title}><img src={transfer} className={classes.icon} alt="" />transfer ROOM</p>
           <p className={classes.number}>1</p>
         </div>
         <div  className={`${classes.table} ${expandedCards.card3 ? `${classes.open}` : ''}`}>
@@ -237,7 +242,7 @@ const HotelStatus = () => {
       </div>
       <div className={classes.card} onClick={() => toggleCard('card4')}>
         <div className={classes.cardHead}>
-          <p className={classes.title}><img src={RoomIcon} className={classes.icon} alt="" />cancelled</p>
+          <p className={classes.title}><img src={cancelled} className={classes.icon} alt="" />cancelled</p>
           <p className={classes.number}>1</p>
         </div>
         <div  className={`${classes.table} ${expandedCards.card4 ? `${classes.open}` : ''}`}>
@@ -355,7 +360,7 @@ const HotelStatus = () => {
       </div>
       <div className={classes.card} onClick={() => toggleCard('card7')}>
         <div className={classes.cardHead}>
-          <p className={classes.title}><img src={RoomIcon} className={classes.icon} alt="" />MARKET SEGMENT</p>
+          <p className={classes.title}><img src={MARKET} className={classes.icon} alt="" />MARKET SEGMENT</p>
           <p className={classes.number}>3</p>
         </div>
         <div  className={`${classes.table} ${expandedCards.card7 ? `${classes.open}` : ''}`}>
@@ -421,7 +426,7 @@ const HotelStatus = () => {
       </div>
       <div className={classes.card} onClick={() => toggleCard('card9')}>
         <div className={classes.cardHead}>
-          <p className={classes.title}><img src={RoomIcon} className={classes.icon} alt="" />MARKET SEGMENT</p>
+          <p className={classes.title}><img src={MARKET} className={classes.icon} alt="" />MARKET SEGMENT</p>
           <p className={classes.number}>3</p>
         </div>
         <div  className={`${classes.table} ${expandedCards.card9 ? `${classes.open}` : ''}`}>
