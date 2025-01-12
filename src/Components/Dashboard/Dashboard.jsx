@@ -130,7 +130,7 @@ const Dashboard = (props) => {
       </Container>
     </Navbar>
       <div style={{width:'fit-content',margin:'auto 1em auto auto',display:"flex",flexDirection:"row"}}>
-        <p style={{fontSize:'12px',margin:"auto 1em",textAlign:"end",fontFamily:"var(--font-family)",color:'rgba(154, 171, 210, 1)',textWrap:"nowrap"}}> Hello <br/><span style={{color:"#111",fontWeight:'600'}}>Ahmad Abou Saleh</span> <br/>  <span style={{fontWeight:'700'}}>Hotel: Elite</span></p>
+        <p style={{fontSize:'12px',margin:"auto 1em",textAlign:"end",fontFamily:"var(--font-family)",color:'rgba(154, 171, 210, 1)',textWrap:"nowrap"}}> Hello <br/><span style={{color:"#111",fontWeight:'600'}}>Ahmad Saleh</span> <br/>  <span style={{fontWeight:'700'}}>Hotel: Elite</span></p>
         <><img src={userplaceholder} alt="" style={{width:"3em",height:'3em',borderRadius:"2px",objectFit:"cover",margin:'auto 0'}} /></>
       </div>
     </Toolbar>
